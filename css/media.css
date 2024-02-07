@@ -47,8 +47,11 @@
   }
 }
 @media screen and (max-width: 991px) {
-  .inner-header .container {
+  .upper-header .container {
     justify-content: center;
+  }
+  .header-content{
+     margin-bottom: 10px;
   }
   .banner-section .services-row .img-wrap {
     width: 40px;

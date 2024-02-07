@@ -8,7 +8,7 @@ body {
 }
 img {
   max-width: 100%;
-  display: inline-block;
+  display: block;
 }
 section {
   padding: 50px 0;
@@ -63,11 +63,11 @@ a {
 .btn-wrap {
   margin-top: 40px;
 }
-.inner-header {
+.upper-header {
   background-color: #ededed;
   padding: 10px 0;
 }
-.inner-header .container {
+.upper-header .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -131,7 +131,7 @@ a {
 }
 .icon .img-wrap:hover {
   background-color: #ed1c24;
-  border: none;
+  border: 1px solid transparent;
 }
 .icon .img-wrap:hover .default-img {
   display: none;
@@ -190,7 +190,7 @@ a {
   height: auto;
   margin: 0;
 }
-.banner-section .services-row .img-wrap {
+.services-row .img-wrap {
   width: 45px;
   height: 45px;
   border-radius: 22px;
@@ -296,7 +296,10 @@ a {
   color: #454544;
 }
 .location-text a {
-  color: #0086cf;
+  color: #454544;
+}
+.location-text .mail-link{
+     color: #0086cf;
 }
 .divider {
   width: 85%;
@@ -424,6 +427,10 @@ a {
   padding: 40px 20px;
   width: 95%;
   margin: 0 auto;
+}
+.logo-slider .slick-track{
+     display: flex;
+     align-items: center;
 }
 .logo-container {
   margin: 0 20px;

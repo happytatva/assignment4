@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(".hamburger").click(function () {
-    $(".body").toggleClass("open-menu");
+    $("body").toggleClass("open-menu");
   });
   $(".logo-slider").slick({
     infinite: false,
@@ -36,7 +36,7 @@ $(document).ready(function () {
   //   ----setting top value of open menu---------
   if ($(window).width() < 1025) {
     var headerWrapperHeight1 = $(".header-wrapper").height();
-    $(".body .navbar-nav").css("top", headerWrapperHeight1);
+    $("body .navbar-nav").css("top", headerWrapperHeight1);
   }
 });
 // ------setting top value of open menu while resizing--------
@@ -45,7 +45,7 @@ $(window).on("resize", function () {
        // Get the height + padding + border of `header-wrapper`
        setTimeout(function () {
          var headerWrapperHeight = $(".header-wrapper").outerHeight();
-         $(".body .navbar-nav").css("top", headerWrapperHeight);
+         $("body .navbar-nav").css("top", headerWrapperHeight);
        }, 500);
      }
    });
