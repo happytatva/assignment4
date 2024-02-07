@@ -1,0 +1,345 @@
+@media screen and (max-width: 1024px) {
+  .hamburger .line {
+    height: 4.5px;
+    display: block;
+    width: 30px;
+    background-color: #ed1c24;
+    margin: 5px 0px;
+    transition: all 0.5s linear;
+  }
+  .body.open-menu {
+    overflow: hidden;
+  }
+  .body.open-menu .line:nth-child(2) {
+    opacity: 0;
+  }
+  .body.open-menu .line:nth-child(1) {
+    transform: translateY(6.5px) rotate(45deg);
+  }
+  .body.open-menu .line:nth-child(3) {
+    transform: translateY(-11.5px) rotate(-45deg);
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .body.open-menu .navbar-nav {
+    display: block;
+    position: fixed;
+    background: #fff;
+    width: 300px;
+    bottom: 0;
+    right: -1px;
+    transition: all 0.5s;
+    overflow: auto;
+    text-align: left;
+    padding: 20px;
+  }
+  .navbar-nav .link-container ul {
+    display: inline-block;
+    width: 100%;
+  }
+  .navbar-nav li {
+    padding: 8px 0;
+  }
+  .navbar-nav li a:hover {
+    color: #ed1c24;
+    border: 1px solid transparent;
+  }
+}
+@media screen and (max-width: 991px) {
+  .inner-header .container {
+    justify-content: center;
+  }
+  .banner-section .services-row .img-wrap {
+    width: 40px;
+    height: 40px;
+  }
+  .banner-section .services-row p {
+    font-size: 15px;
+  }
+  .service-block .row {
+    gap: 20px;
+  }
+  .card-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
+  .service-wrapper .col-auto span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hamburger .line {
+    height: 4px;
+    width: 25px;
+    margin: 4.5px 0px;
+  }
+  .body.open-menu .line:nth-child(1) {
+    transform: translateY(8.5px) rotate(45deg);
+  }
+  .body.open-menu .line:nth-child(3) {
+    transform: translateY(-9.5px) rotate(-45deg);
+  }
+  .banner-section h1 {
+    font-size: 54px;
+  }
+  .banner-section p {
+    font-size: 18px;
+  }
+  .services-row {
+    justify-content: space-around;
+    gap: 15px;
+  }
+  .title {
+    font-size: 45px;
+    line-height: 52px;
+    margin-bottom: 28px;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 9px 60px;
+  }
+  .btn-wrap {
+    margin-top: 30px;
+  }
+
+  .rating-section .btn {
+    padding: 8px 30px;
+  }
+  .rating-section p {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .card-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .service-wrapper {
+    padding: 20px 30px;
+  }
+  .service-wrapper .row {
+    margin: 0;
+  }
+  .service-wrapper .row .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .about-section h4 {
+    font-size: 22px;
+  }
+
+  .location-content {
+    margin-bottom: 10px;
+  }
+
+  .media-body .content-wrap {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .footer {
+    padding: 12px 0;
+  }
+  .footer-upper-content p {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .footer .icons-block {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .footer .icon .img-wrap {
+    width: 35px;
+    height: 35px;
+  }
+  .footer-lower-content .col-md-7 p {
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+  }
+  .footer-lower-content .col-md-5 p {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 567px) {
+  section {
+    padding: 45px 0;
+  }
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .header-content img {
+    height: 16px;
+    width: 14px;
+  }
+  .header-content p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .navbar .logo {
+    max-width: 150px;
+  }
+  .hamburger .line {
+    height: 3.5px;
+    width: 23px;
+    background-color: #ed1c24;
+    margin: 4px 0px;
+    transition: all 0.5s linear;
+  }
+  .body.open-menu .navbar-nav {
+    right: 0px;
+  }
+  .body.open-menu .line:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+  .body.open-menu .line:nth-child(3) {
+    transform: translateY(-8.5px) rotate(-45deg);
+  }
+  .body.open-menu .navbar-nav {
+    width: 100%;
+  }
+  .navbar-nav li {
+    padding: 8px 0;
+    text-align: center;
+  }
+  .banner-section h1 {
+    font-size: 50px;
+  }
+  .banner-section p {
+    font-size: 16px;
+  }
+  .services-row {
+     margin: 35px 35px 0;
+     gap: 10px;
+  }
+  .service-block .row {
+    gap: 12px;
+  }
+  .card-block h3 {
+    font-size: 20px;
+  }
+  .card-block p {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 43px;
+    line-height: 50px;
+    margin-bottom: 26px;
+  }
+  .btn {
+    font-size: 18px;
+    padding: 7px 50px;
+  }
+  .btn-wrap {
+    margin-top: 27px;
+  }
+
+  .rating-section .btn {
+    padding: 6px 25px;
+  }
+  .rating-section p {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .location-title {
+    font-size: 25px;
+  }
+  .location-text p {
+    font-size: 16px;
+  }
+  .service-wrapper .row .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-section h4 {
+    font-size: 20px;
+  }
+  .up-arrow-link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    bottom: 3px;
+    right: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  section {
+    padding: 30px 0;
+  }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header-content p {
+    font-size: 14px;
+  }
+  .banner-section h1 {
+    font-size: 36px;
+  }
+  .services-row {
+    gap: 6px;
+  }
+  .service-block .row {
+     gap: 10px;
+   }
+  .banner-section .services-row .img-wrap {
+    width: 35px;
+    height: 35px;
+  }
+  .banner-section .services-row p {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 33px;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+  .card-block h3 {
+    font-size: 18px;
+  }
+  .card-block p {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 6px 40px;
+  }
+  .btn-wrap {
+    margin-top: 25px;
+  }
+
+  .rating-section .btn {
+    padding: 5px 20px;
+  }
+  .rating-section p {
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .location-text p {
+    font-size: 14px;
+  }
+  .about-section h4 {
+    font-size: 18px;
+  }
+  .service-wrapper .col-md-3 img {
+    width: 15px;
+    height: 15px;
+  }
+  .service-wrapper .col-auto span {
+    font-size: 13px;
+    line-height: 20px;
+    color: #454544;
+  }
+}
+@media screen and (max-width: 410px){
+     .services-row {
+          justify-content: start;
+        }
+}
