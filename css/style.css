@@ -217,6 +217,10 @@ a {
   padding: 5px;
 }
 .card-img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   width: 180px;
   height: 180px;
   border-radius: 90px;
@@ -239,6 +243,9 @@ a {
 /* --rating-section--- */
 .rating-section {
   background-color: #202121;
+}
+.rating-section .row {
+  align-items: center;
 }
 .rating-section .btn {
   padding: 10px 35px;
@@ -419,7 +426,7 @@ a {
   margin: 0 auto;
 }
 .logo-container {
-  margin: 0 5px;
+  margin: 0 20px;
 }
 .logo-slider .slick-slide img {
   margin: 0 auto;

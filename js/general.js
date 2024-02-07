@@ -4,27 +4,33 @@ $(document).ready(function () {
   });
   $(".logo-slider").slick({
     infinite: false,
-    slidesToShow: 4,
+    slidesToShow: 8,
     slidesToScroll: 1,
     responsive: [
+     {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 5,
+          },
+        },
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
         },
       },
       {
         breakpoint: 567,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
       {
-        breakpoint: 365,
-        settings: {
-          slidesToShow: 1,
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+          },
         },
-      },
     ],
   });
   //   ----setting top value of open menu---------
