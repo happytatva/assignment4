@@ -142,6 +142,9 @@
     margin-bottom: 10px;
   }
 
+  .review-section .content h4 {
+     text-align: center;
+ }
   .media-body .content-wrap {
     justify-content: center;
     gap: 8px;
@@ -272,7 +275,7 @@
     display: block;
     width: 30px;
     height: 30px;
-    bottom: 3px;
+    bottom: 30px;
     right: 15px;
   }
 }

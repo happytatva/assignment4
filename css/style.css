@@ -475,8 +475,9 @@ a {
   display: block;
   width: 43px;
   height: 43px;
-  bottom: 8px;
-  right: 0;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
 }
 
 /* -----footer--- */
