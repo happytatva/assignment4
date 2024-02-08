@@ -1,4 +1,7 @@
 @media screen and (max-width: 1024px) {
+  .hamburger{
+     cursor: pointer;
+  }
   .hamburger .line {
     height: 4.5px;
     display: block;
