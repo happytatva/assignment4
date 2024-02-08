@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
-  .hamburger{
-     cursor: pointer;
+  .hamburger {
+    cursor: pointer;
   }
   .hamburger .line {
     height: 4.5px;
@@ -53,8 +53,8 @@
   .upper-header .container {
     justify-content: center;
   }
-  .header-content{
-     margin-bottom: 10px;
+  .header-content {
+    margin-bottom: 10px;
   }
   .banner-section .services-row .img-wrap {
     width: 40px;
@@ -72,8 +72,8 @@
     margin-bottom: 10px;
   }
   .rating-section .btn {
-     padding: 10px 23px;
- }
+    padding: 10px 23px;
+  }
   .service-wrapper .col-auto span {
     font-size: 14px;
   }
@@ -107,9 +107,7 @@
     justify-content: space-around;
     gap: 15px;
   }
-  .services-row .img-wrap {
-     top: 5px;
- }
+
   .title {
     font-size: 45px;
     line-height: 52px;
@@ -149,8 +147,8 @@
   }
 
   .review-section .content h4 {
-     text-align: center;
- }
+    text-align: center;
+  }
   .media-body .content-wrap {
     justify-content: center;
     gap: 8px;
@@ -232,7 +230,6 @@
     font-size: 16px;
   }
   .services-row {
-    margin: 35px 35px 0;
     gap: 10px;
   }
   .service-block .row {
@@ -354,7 +351,7 @@
     color: #454544;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 375px) {
   .services-row {
     justify-content: start;
   }

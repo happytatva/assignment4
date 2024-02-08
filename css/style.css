@@ -187,7 +187,6 @@ a {
 }
 .service-block .row {
   gap: 25px;
-  position: relative;
 }
 .service-block .col-auto {
   display: flex;
@@ -196,12 +195,10 @@ a {
 }
 .banner-section .services-row p {
   font-size: 18px;
-  line-height: 48px;
   color: #ffffff;
   width: auto;
   height: auto;
   margin: 0;
-  padding-left: 35px;
 }
 .services-row .img-wrap {
   width: 45px;
@@ -209,9 +206,6 @@ a {
   border-radius: 22px;
   background-color: rgba(237, 28, 36, 0);
   border: 1px solid #ffffff;
-  position: absolute;
-  top: 2px;
-  left: 0px;
 }
 
 /* ----skills-section--- */
