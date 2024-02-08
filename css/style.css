@@ -176,6 +176,7 @@ a {
 }
 .service-block .row {
   gap: 25px;
+  position: relative;
 }
 .service-block .col-auto {
   display: flex;
@@ -189,6 +190,7 @@ a {
   width: auto;
   height: auto;
   margin: 0;
+  padding-left: 35px;
 }
 .services-row .img-wrap {
   width: 45px;
@@ -196,6 +198,9 @@ a {
   border-radius: 22px;
   background-color: rgba(237, 28, 36, 0);
   border: 1px solid #ffffff;
+  position: absolute;
+  top: 2px;
+  left: 0px;
 }
 
 /* ----skills-section--- */
@@ -298,8 +303,8 @@ a {
 .location-text a {
   color: #454544;
 }
-.location-text .mail-link{
-     color: #0086cf;
+.location-text .mail-link {
+  color: #0086cf;
 }
 .divider {
   width: 85%;
@@ -337,19 +342,23 @@ a {
 }
 .service-wrapper .col-md-3 .row {
   align-items: center;
+  position: relative;
 }
 .service-wrapper .col-md-3 .row .col-auto {
-  padding: 0 8px 0 0;
+  padding: 0 10px 0 0;
 }
 .service-wrapper .col-md-3 img {
   width: 20px;
   height: 20px;
   transform: rotate(90deg);
+  position: absolute;
+  top: 2px;
 }
 .service-wrapper .col-auto span {
   font-size: 16px;
   line-height: 24px;
   color: #454544;
+  padding-left: 25px;
 }
 .about-section h4 {
   font-size: 26px;
@@ -428,9 +437,9 @@ a {
   width: 95%;
   margin: 0 auto;
 }
-.logo-slider .slick-track{
-     display: flex;
-     align-items: center;
+.logo-slider .slick-track {
+  display: flex;
+  align-items: center;
 }
 .logo-container {
   margin: 0 20px;
@@ -472,12 +481,19 @@ a {
   opacity: 0;
 }
 .up-arrow-link {
-  display: block;
+  display: none;
   width: 43px;
   height: 43px;
   position: fixed;
   bottom: 120px;
   right: 20px;
+  transition: all 0.3s linear;
+}
+.up-arrow-link:hover {
+  transform: scale(1.07);
+}
+.show-arrow {
+  display: block;
 }
 
 /* -----footer--- */

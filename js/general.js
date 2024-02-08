@@ -48,5 +48,20 @@ $(window).on("resize", function () {
          $("body .navbar-nav").css("top", headerWrapperHeight);
        }, 500);
      }
-   });
-   
+});
+
+//for scoll using up-arrow
+var upArrowbtn = $('.up-arrow-link');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 500) {
+     upArrowbtn.addClass('show-arrow');
+  } else {
+     upArrowbtn.removeClass('show-arrow');
+  }
+});
+
+upArrowbtn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+}); 

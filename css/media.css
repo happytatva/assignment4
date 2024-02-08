@@ -104,6 +104,9 @@
     justify-content: space-around;
     gap: 15px;
   }
+  .services-row .img-wrap {
+     top: 5px;
+ }
   .title {
     font-size: 45px;
     line-height: 52px;
@@ -272,7 +275,6 @@
     font-size: 20px;
   }
   .up-arrow-link {
-    display: block;
     width: 30px;
     height: 30px;
     bottom: 30px;
@@ -341,6 +343,7 @@
   .service-wrapper .col-md-3 img {
     width: 15px;
     height: 15px;
+    top: 5px;
   }
   .service-wrapper .col-auto span {
     font-size: 13px;
