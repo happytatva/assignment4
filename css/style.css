@@ -6,6 +6,9 @@
 body {
   font-family: "Calibri";
 }
+.wrapper{
+     min-height: 100%;
+}
 img {
   max-width: 100%;
   display: block;
@@ -23,6 +26,14 @@ p {
 a {
   text-decoration: none;
   cursor: pointer;
+}
+.header {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 .title {
   font-size: 50px;
@@ -485,7 +496,7 @@ a {
   width: 43px;
   height: 43px;
   position: fixed;
-  bottom: 120px;
+  bottom: 175px;
   right: 20px;
   transition: all 0.3s linear;
 }
