@@ -349,9 +349,7 @@ a {
   align-items: center;
   position: relative;
 }
-.service-wrapper .col-md-3 .row .col-auto {
-  padding: 0 10px 0 0;
-}
+
 .service-wrapper .col-md-3 img {
   width: 20px;
   height: 20px;
