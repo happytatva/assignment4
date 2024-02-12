@@ -1,3 +1,12 @@
+@media screen and (max-width: 1147px) {
+  .working-section .card-item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .working-section .card-item:nth-child(3n)::after {
+    display: none;
+  }
+}
 @media screen and (max-width: 1024px) {
   .hamburger {
     cursor: pointer;
@@ -24,18 +33,18 @@
   }
   .navbar-nav {
     display: none;
-  }
-  body.open-menu .navbar-nav {
-    display: block;
     position: fixed;
-    background: #fff;
+    background-color: #fff;
     width: 300px;
     bottom: 0;
-    right: -1px;
     transition: all 0.5s;
     overflow: auto;
     text-align: left;
     padding: 20px;
+  }
+  body.open-menu .navbar-nav {
+    display: block;
+    right: -1px;
   }
   .navbar-nav .link-container ul {
     display: inline-block;
@@ -53,9 +62,6 @@
   .upper-header .container {
     justify-content: center;
   }
-  .header-content {
-    margin-bottom: 10px;
-  }
   .banner-section .services-row .img-wrap {
     width: 40px;
     height: 40px;
@@ -71,8 +77,9 @@
     max-width: 50%;
     margin-bottom: 10px;
   }
-  .rating-section .btn {
-    padding: 10px 23px;
+
+  .working-section .card-item p {
+    font-size: 16px;
   }
   .service-wrapper .col-auto span {
     font-size: 14px;
@@ -86,16 +93,26 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .phone-icon-link {
+    padding-right: 5px;
+  }
+  .phone-icon-link img {
+    width: 80%;
+    height: 80%;
+  }
   .hamburger .line {
     height: 4px;
     width: 25px;
     margin: 4.5px 0px;
   }
   body.open-menu .line:nth-child(1) {
-    transform: translateY(8.5px) rotate(45deg);
+    transform: translateY(7.5px) rotate(45deg);
   }
   body.open-menu .line:nth-child(3) {
     transform: translateY(-9.5px) rotate(-45deg);
+  }
+  .banner-wrapper {
+    min-height: auto;
   }
   .banner-section h1 {
     font-size: 54px;
@@ -106,6 +123,7 @@
   .services-row {
     justify-content: space-around;
     gap: 15px;
+    margin-top: 0;
   }
 
   .title {
@@ -115,18 +133,27 @@
   }
   .btn {
     font-size: 20px;
-    padding: 9px 60px;
+    width: 200px;
+    height: 50px;
   }
   .btn-wrap {
     margin-top: 30px;
   }
 
   .rating-section .btn {
-    padding: 8px 30px;
+    width: 150px;
+    height: 50px;
   }
   .rating-section p {
     font-size: 42px;
     line-height: 50px;
+  }
+  .working-section .card-item::after {
+    width: 40px;
+    right: -20px;
+  }
+  .working-section .card-item {
+    padding: 0 20px;
   }
 
   .card-item {
@@ -189,14 +216,15 @@
     font-size: 16px;
     line-height: 22px;
   }
-  .header-content img {
-    height: 16px;
-    width: 14px;
-  }
   .header-content p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
   }
+  .icon .img-wrap {
+    width: 30px;
+    height: 30px;
+  }
+
   .navbar .logo {
     max-width: 150px;
   }
@@ -248,18 +276,31 @@
   }
   .btn {
     font-size: 18px;
-    padding: 7px 50px;
+    width: 180px;
+    height: 45px;
   }
   .btn-wrap {
     margin-top: 27px;
   }
 
   .rating-section .btn {
-    padding: 6px 25px;
+    width: 140px;
+    height: 45px;
   }
   .rating-section p {
     font-size: 40px;
     line-height: 40px;
+  }
+
+  .working-section .card-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .working-section .card-item:nth-child(2n)::after {
+    display: none;
+  }
+  .working-section .card-item:nth-child(3n)::after {
+    display: block;
   }
   .location-title {
     font-size: 25px;
@@ -290,7 +331,7 @@
     line-height: 20px;
   }
   .header-content p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .banner-section h1 {
     font-size: 36px;
@@ -321,18 +362,36 @@
   }
   .btn {
     font-size: 16px;
-    padding: 6px 40px;
+    width: 170px;
+    height: 40px;
   }
   .btn-wrap {
     margin-top: 25px;
   }
-
+  .rating-section .row img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .rating-section .row {
+    text-align: center;
+  }
   .rating-section .btn {
-    padding: 5px 20px;
+    width: 120px;
+    height: 40px;
   }
   .rating-section p {
     font-size: 35px;
     line-height: 38px;
+  }
+  .working-section .card-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .working-section .card-item::after {
+    display: none;
+  }
+  .working-section .card-item:nth-child(3n)::after {
+    display: none;
   }
   .location-text p {
     font-size: 14px;

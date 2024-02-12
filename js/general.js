@@ -17,6 +17,13 @@ $(document).ready(function () {
   $(".hamburger").click(function () {
     $("body").toggleClass("open-menu");
   });
+  $(".banner-slider").slick({
+     infinite: false,
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     dots: true,
+     arrows: false
+   });
   $(".logo-slider").slick({
     infinite: false,
     slidesToShow: 8,
