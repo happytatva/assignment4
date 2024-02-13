@@ -1,50 +1,50 @@
 @font-face {
-    font-family: 'Calibri';
-    src: url('Calibri.eot');
-    src: url('Calibri.eot?#iefix') format('embedded-opentype'),
-        url('Calibri.woff2') format('woff2'),
-        url('Calibri.woff') format('woff'),
-        url('Calibri.ttf') format('truetype'),
-        url('Calibri.svg#Calibri') format('svg');
+    font-family: 'calibri';
+    src: url('calibri.eot');
+    src: url('calibri.eot?#iefix') format('embedded-opentype'),
+        url('calibri.woff2') format('woff2'),
+        url('calibri.woff') format('woff'),
+        url('calibri.ttf') format('truetype'),
+        url('calibri.svg#calibri') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Calibri';
-    src: url('Calibri-Light.eot');
-    src: url('Calibri-Light.eot?#iefix') format('embedded-opentype'),
-        url('Calibri-Light.woff2') format('woff2'),
-        url('Calibri-Light.woff') format('woff'),
-        url('Calibri-Light.ttf') format('truetype'),
-        url('Calibri-Light.svg#Calibri-Light') format('svg');
+    font-family: 'calibri';
+    src: url('calibri-light.eot');
+    src: url('calibri-light.eot?#iefix') format('embedded-opentype'),
+        url('calibri-light.woff2') format('woff2'),
+        url('calibri-light.woff') format('woff'),
+        url('calibri-light.ttf') format('truetype'),
+        url('calibri-light.svg#calibri-light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Calibri';
-    src: url('Calibri-Italic.eot');
-    src: url('Calibri-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Calibri-Italic.woff2') format('woff2'),
-        url('Calibri-Italic.woff') format('woff'),
-        url('Calibri-Italic.ttf') format('truetype'),
-        url('Calibri-Italic.svg#Calibri-Italic') format('svg');
+    font-family: 'calibri';
+    src: url('calibri-italic.eot');
+    src: url('calibri-italic.eot?#iefix') format('embedded-opentype'),
+        url('calibri-italic.woff2') format('woff2'),
+        url('calibri-italic.woff') format('woff'),
+        url('calibri-italic.ttf') format('truetype'),
+        url('calibri-italic.svg#calibri-italic') format('svg');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Calibri';
-    src: url('Calibri-Bold.eot');
-    src: url('Calibri-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Calibri-Bold.woff2') format('woff2'),
-        url('Calibri-Bold.woff') format('woff'),
-        url('Calibri-Bold.ttf') format('truetype'),
-        url('Calibri-Bold.svg#Calibri-Bold') format('svg');
+    font-family: 'calibri';
+    src: url('calibri-bold.eot');
+    src: url('calibri-bold.eot?#iefix') format('embedded-opentype'),
+        url('calibri-bold.woff2') format('woff2'),
+        url('calibri-bold.woff') format('woff'),
+        url('calibri-bold.ttf') format('truetype'),
+        url('calibri-bold.svg#calibri-bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
