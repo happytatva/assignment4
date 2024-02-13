@@ -302,10 +302,10 @@
   .working-section .card-item:nth-child(3n)::after {
     display: block;
   }
-  .location-title {
+  .location-area-title {
     font-size: 25px;
   }
-  .location-text p {
+  .location-text .value {
     font-size: 16px;
   }
   .service-wrapper .service-row .feature {
@@ -393,7 +393,7 @@
   .working-section .card-item:nth-child(3n)::after {
     display: none;
   }
-  .location-text p {
+  .location-text .value {
     font-size: 14px;
   }
   .about-section h4 {
