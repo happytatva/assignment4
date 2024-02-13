@@ -28,6 +28,14 @@ $(document).ready(function () {
     infinite: false,
     slidesToShow: 8,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
+    speed: 2000,
+    pauseOnHover: true,
+    pauseOnFocus: true,
+    variableWidth: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 991,
