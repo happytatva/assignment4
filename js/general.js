@@ -17,20 +17,26 @@ $(document).ready(function () {
   $(".hamburger").click(function () {
     $("body").toggleClass("open-menu");
   });
+
   $(".banner-slider").slick({
-     infinite: false,
-     slidesToShow: 1,
-     slidesToScroll: 1,
-     dots: true,
-     arrows: false
-   });
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "ease",
+    speed: 2000,
+    arrows: false,
+  });
+
   $(".logo-slider").slick({
     infinite: false,
     slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    cssEase: 'linear',
+    cssEase: "ease",
     speed: 2000,
     pauseOnHover: true,
     pauseOnFocus: true,
@@ -98,5 +104,5 @@ $(window).scroll(function () {
 
 upArrowbtn.on("click", function (e) {
   e.preventDefault();
-  $("html, body").animate({ scrollTop: 0 },1000);
+  $("html, body").animate({ scrollTop: 0 }, 1000);
 });
