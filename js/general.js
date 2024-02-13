@@ -90,5 +90,5 @@ $(window).scroll(function () {
 
 upArrowbtn.on("click", function (e) {
   e.preventDefault();
-  $("html, body").animate({ scrollTop: 0 },800);
+  $("html, body").animate({ scrollTop: 0 },1000);
 });

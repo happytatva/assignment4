@@ -69,7 +69,7 @@
   .banner-section .services-row p {
     font-size: 15px;
   }
-  .service-block .row {
+  .service-block .inner-row {
     gap: 20px;
   }
   .card-item {
@@ -81,14 +81,14 @@
   .working-section .card-item p {
     font-size: 16px;
   }
-  .service-wrapper .col-auto span {
+  .service-wrapper .inner-col span {
     font-size: 14px;
   }
-  .service-wrapper .row .col-md-3 {
+  .service-wrapper .service-row .feature {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .service-wrapper .row {
+  .service-wrapper .service-row {
     margin: 0;
   }
 }
@@ -197,12 +197,12 @@
     width: 35px;
     height: 35px;
   }
-  .footer-lower-content .col-md-7 p {
+  .footer-lower-content .copyright-col p {
     font-size: 10px;
     line-height: 12px;
     text-align: center;
   }
-  .footer-lower-content .col-md-5 p {
+  .footer-lower-content .custom-col p {
     font-size: 12px;
     line-height: 12px;
     text-align: center;
@@ -260,7 +260,7 @@
   .services-row {
     gap: 10px;
   }
-  .service-block .row {
+  .service-block .inner-row {
     gap: 12px;
   }
   .card-block h3 {
@@ -308,7 +308,7 @@
   .location-text p {
     font-size: 16px;
   }
-  .service-wrapper .row .col-md-3 {
+  .service-wrapper .service-row .feature {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -339,7 +339,7 @@
   .services-row {
     gap: 6px;
   }
-  .service-block .row {
+  .service-block .inner-row {
     gap: 10px;
   }
   .banner-section .services-row .img-wrap {
@@ -368,11 +368,11 @@
   .btn-wrap {
     margin-top: 25px;
   }
-  .rating-section .row img {
+  .rating-section .inner-row img {
     margin: 0 auto;
     margin-bottom: 10px;
   }
-  .rating-section .row {
+  .rating-section .inner-row {
     text-align: center;
   }
   .rating-section .btn {
@@ -399,18 +399,22 @@
   .about-section h4 {
     font-size: 18px;
   }
-  .service-wrapper .col-md-3 img {
+  .service-wrapper .feature img {
     width: 15px;
     height: 15px;
     top: 5px;
   }
-  .service-wrapper .col-auto span {
+  .service-wrapper .inner-col span {
     font-size: 13px;
     line-height: 20px;
     color: #454544;
   }
 }
 @media screen and (max-width: 375px) {
+  .header-wrapper .icons-block {
+    flex-wrap: wrap;
+    align-items: center;
+  }
   .services-row {
     justify-content: start;
   }
