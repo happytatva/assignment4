@@ -1,3 +1,3 @@
 # assignment4
-Name: TechBar
+Name: TechBar,
 Technology used: HTML, CSS, Bootstrap, jQuery
